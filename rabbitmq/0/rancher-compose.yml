@@ -3,3 +3,16 @@
   version: 3.3-rancher1
   description: "Deploy a RabbitMQ node"
   minimum_rancher_version: v1.0.0-rc2
+  questions:
+    - variable: service_port
+      description: "Port to access queues"
+      label: "Client Port"
+      required: true
+      default: "5672"
+      type: "int"
+    - variable: adm_port
+      description: "Port to access api"
+      label: "Adm Port"
+      required: true
+      default: "55672"
+      type: "int"
