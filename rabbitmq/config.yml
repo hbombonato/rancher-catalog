@@ -1,0 +1,4 @@
+name: "RabbitMQ"
+description: "Enterprise Message"
+version: 3.3-rancher1
+category: Messaging
